@@ -1,0 +1,73 @@
+<!-- bmi-calculator.html -->
+ <!DOCTYPE Html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>bmi</title>
+  <link rel="stylesheet" href="bmistyle.css" />
+
+        </head>
+        <body>
+           <!-- bmi-calculator.html -->
+<section id="bmi" class="bmi-section">
+    <h2>💪 Check Your BMI</h2>
+    <p class="bmi-subtitle">Get your Body Mass Index instantly</p>
+  
+    <div class="bmi-card glass">
+      <div class="bmi-inputs">
+        <input type="number" id="height" placeholder="Height (cm)" />
+        <input type="number" id="weight" placeholder="Weight (kg)" />
+        <button onclick="calculateBMI()">Calculate</button>
+      </div>
+  
+      <div class="bmi-output">
+        <div id="bmi-dial" class="dial"></div>
+        <div id="bmi-result" class="result-text">Result will appear here</div>
+      </div>
+    </div>
+  </section>
+  
+              <script>
+                // script.js
+// script.js
+function calculateBMI() {
+  const height = parseFloat(document.getElementById('height').value);
+  const weight = parseFloat(document.getElementById('weight').value);
+  const result = document.getElementById('bmi-result');
+  const dial = document.getElementById('bmi-dial');
+
+  if (!height || !weight || height <= 0 || weight <= 0) {
+    result.textContent = "Please enter valid height and weight.";
+    dial.style.background = "conic-gradient(#555 0% 100%)";
+    return;
+  }
+
+  const bmi = weight / ((height / 100) ** 2);
+  let category = "";
+  let color = "";
+
+  if (bmi < 18.5) {
+    category = "Underweight";
+    color = "#4fc3f7"; // Blue
+  } else if (bmi < 24.9) {
+    category = "Normal";
+    color = "#81c784"; // Green
+  } else if (bmi < 29.9) {
+    category = "Overweight";
+    color = "#ffb74d"; // Orange
+  } else {
+    category = "Obese";
+    color = "#e57373"; // Red
+  }
+
+  result.textContent = `Your BMI is ${bmi.toFixed(1)} — ${category}`;
+  dial.textContent = bmi.toFixed(1);
+  dial.style.background = `conic-gradient(${color} ${(bmi / 40) * 100}%, #555 0%)`;
+}
+
+
+              </script>
+        </body>
+    </html>
+ 
