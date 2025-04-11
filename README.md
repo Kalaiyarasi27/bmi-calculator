@@ -4,10 +4,15 @@ BMI Calculator is a lightweight and responsive web application designed to help 
 Whether you're tracking your fitness journey or learning basic health metrics, this tool is a great companion.
 
 ✨ Features
+
 ✅ Easy-to-use interface
+
 ✅ Real-time BMI calculation
+
 ✅ Clear interpretation with colored feedback
+
 ✅ Fully responsive layout
+
 ✅ Aesthetic design with smooth animations
 
 🛠 Tech Stack
@@ -17,4 +22,4 @@ Whether you're tracking your fitness journey or learning basic health metrics, t
 
 🌐 Live Demo https://kalaiyarasi27.github.io/bmi-calculator/
 
-                   Dreamt, designed, and developed 🚀 – KALAIYARASI N
+ Dreamt, designed, and developed 🚀 – KALAIYARASI N
