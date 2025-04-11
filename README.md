@@ -1,5 +1,6 @@
-BMI Calculator is a lightweight and responsive web application designed to help users instantly calculate their Body Mass Index based on height and weight. The app determines which health category the user falls into and displays a friendly message with styling that reflects the result (e.g., Normal, Overweight, Underweight, Obese).
+📊 BMI Calculator
 
+BMI Calculator is a lightweight and responsive web application designed to help users instantly calculate their Body Mass Index based on height and weight. The app determines which health category the user falls into and displays a friendly message with styling that reflects the result (e.g., Normal, Overweight, Underweight, Obese).
 Whether you're tracking your fitness journey or learning basic health metrics, this tool is a great companion.
 
 ✨ Features
@@ -16,4 +17,4 @@ Whether you're tracking your fitness journey or learning basic health metrics, t
 
 🌐 Live Demo https://kalaiyarasi27.github.io/bmi-calculator/
 
-Dreamt, designed, and developed 🚀 – KALAIYARASI N
+                   Dreamt, designed, and developed 🚀 – KALAIYARASI N
