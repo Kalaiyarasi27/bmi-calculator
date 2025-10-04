@@ -20,6 +20,5 @@ Whether you're tracking your fitness journey or learning basic health metrics, t
 -> CSS - For styling, responsive design, and UI
 -> JavaScript - For logic, interactivity, and calculations
 
-🌐 Live Demo https://kalaiyarasi27.github.io/bmi-calculator/
 
  Dreamt, designed, and developed 🚀 – KALAIYARASI N
